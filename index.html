@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Finalyze</title>
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="x-rim-auto-match" content="none">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+    
+</head>
+<body>
+
+  <header>
+    <div class="flex-container">
+      <div class="center flex-container align-center">
+        <a href="/" class="img logo" style="background-image: url(img/logo.svg);"></a>
+
+        <nav class="flex-container align-center">
+          <form>
+            <div class="email">
+              <input text="email" name="email" placeholder="Enter your email">
+            </div>
+            <button class="btn-orange" id="signup">Sign Up</button>
+          </form>
+          <div class="menu">
+            <a href="#about_us" class="go-to">About Us</a>
+            <a href="#features" class="go-to">Features</a>
+            <a href="https://finalyze.syntech.info/">Sign In</a>
+            <div class="close mobile">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.3334 2.54675L17.4534 0.666748L10.0001 8.12008L2.54675 0.666748L0.666748 2.54675L8.12008 10.0001L0.666748 17.4534L2.54675 19.3334L10.0001 11.8801L17.4534 19.3334L19.3334 17.4534L11.8801 10.0001L19.3334 2.54675Z" fill="#ffffff"/>
+              </svg>                
+            </div>
+          </div>
+        </nav>
+        <div class="menu-icon img mobile"></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="top-title-img flex-container">
+      <div class="center flex-container">
+        <h2>
+          Helping you manage
+          your financial journey
+        </h2>
+      </div>
+      <div class="img img-bg-1"></div>
+      <div class="img img-bg-2"></div>
+      <div class="img img-bg-3"></div>
+    </section>
+
+    <section class="two-columns about flex-container" id="about_us">
+      <div class="center flex-container">
+        <h3>
+          About Us
+        </h3>
+        <div>
+          <p>
+            We are a platform built by investors for investors. 
+          </p>
+          <p>
+            Finalyze provides investors with tools to analyse, manage and define your equity portfolio. Helping you to make more conscious decisions around areas such as risk, liquidity and your future financial goals.
+          </p>
+          <p>
+            We bridge the gap between retail and professional investing.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="slider-section flex-container" id="features">
+      <div class="center flex-container">
+        <div class="dots"></div>
+  
+        <div class="slider">
+          <div>
+            <div class="inner-wrap">
+              <div class="img" style="background-image: url(img/slider-img/Equity_management.svg);"></div>
+              <h4>
+                Equity management
+              </h4>
+              <p>
+                Organise your equity portfolios with a clear and user-friendly platform. 
+              </p>
+            </div>
+          </div>
+          
+          <div>
+            <div class="inner-wrap">
+              <div class="img" style="background-image: url(img/slider-img/Risk_assessment.svg);"></div>
+              <h4>
+                Risk assessment
+              </h4>
+              <p>
+                Understand where the risks sit in your portfolio with our intuitive metrics.
+              </p>
+            </div>
+          </div>
+          
+          <div>
+            <div class="inner-wrap">
+              <div class="img" style="background-image: url(img/slider-img/Goal_Setting.svg);"></div>
+              <h4>
+                Goal Setting
+              </h4>
+              <p>
+                Being successful means knowing your destination. Set and track your goals in line with your profitability.
+              </p>
+            </div>
+          </div>
+          
+          <div>
+            <div class="inner-wrap">
+              <div class="img" style="background-image: url(img/slider-img/Analysis_and_Performance.svg);"></div>
+              <h4>
+                Analysis and Performance
+              </h4>
+              <p>
+                Finalyze filters key metrics to show where your portfolio is positioned. Follow your current profit and loss on the platform or through our reporting system.
+              </p>
+            </div>
+          </div>
+          
+          <div>
+            <div class="inner-wrap">
+              <div class="img" style="background-image: url(img/slider-img/Built_for_you.svg);"></div>
+              <h4>
+                Built for you
+              </h4>
+              <p>
+                We tailored our platform to make it more personal to UK investors. We designed finalize to allowfreedom to create a profile that is personalised to your investment strategy.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="two-columns booklet flex-container">
+      <div class="center flex-container">
+        <div>
+          <h3>
+            Tips to survive a market crash
+          </h3>
+          <button class="btn-orange" id="download_booklet_popup">Download e-booklet</button>
+        </div>
+
+        <div>
+          <div class="img"></div>
+        </div>
+      </div>
+      <div class="bot-bg"></div>
+
+      <div class="popup download-form hidden">
+        <div class="popup-bg"></div>
+        <div class="outer-wrap">
+          <div class="wrap">
+            <h4>
+              To continue, please introduce yourself
+            </h4>
+            <form>
+              <div class="name">
+                <input type="text" name="name" placeholder="Your name">
+              </div>
+              <div class="email">
+                <input type="text" name="email" placeholder="Your email">
+              </div>
+              <button class="btn-orange" id="download_booklet">Download e-booklet</button>
+            </form>
+            <div class="img close"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="popup thank-you hidden">
+        <div class="popup-bg"></div>
+        <div class="outer-wrap">
+          <div class="wrap ">
+            <div class="top">
+              <h4>
+                Thank you!
+              </h4>
+              <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M60.8502 35.7228H48.2466C47.4979 35.7225 46.7683 35.9597 46.1629 36.4004C45.5575 36.8411 45.1075 37.4624 44.8778 38.1751C44.2759 40.0556 43.0913 41.6959 41.4955 42.8586C39.8997 44.0213 37.9754 44.6462 36.0009 44.6429C34.0263 44.6464 32.1019 44.0216 30.506 42.8589C28.9102 41.6961 27.7257 40.0557 27.124 38.1751C26.8939 37.4623 26.4437 36.8409 25.8381 36.4002C25.2325 35.9596 24.5027 35.7224 23.7537 35.7228H11.1501C10.685 35.7227 10.2244 35.8142 9.79462 35.9922C9.36488 36.1701 8.97442 36.431 8.64552 36.7599C8.31663 37.0888 8.05575 37.4793 7.8778 37.909C7.69985 38.3387 7.6083 38.7993 7.6084 39.2645V59.4633C7.60897 60.4023 7.98234 61.3027 8.64645 61.9665C9.31056 62.6304 10.2111 63.0034 11.1501 63.0036H60.8502C61.3152 63.0037 61.7757 62.9122 62.2054 62.7343C62.635 62.5564 63.0254 62.2957 63.3543 61.967C63.6832 61.6382 63.9441 61.2479 64.1221 60.8183C64.3001 60.3888 64.3918 59.9283 64.3919 59.4633V39.2645C64.3919 37.3068 62.8079 35.7228 60.8502 35.7228Z" fill="#F69964"/>
+                <path d="M35.2571 37.6106C35.4349 37.8597 35.7258 38.0087 36.0318 38.0087H36.0339C36.3421 38.0087 36.6287 37.8597 36.8087 37.607L46.6035 23.8312C46.7043 23.6883 46.7639 23.5206 46.7761 23.3462C46.7883 23.1718 46.7525 22.9974 46.6727 22.8419C46.5926 22.6863 46.4711 22.5557 46.3216 22.4647C46.172 22.3738 46.0003 22.3259 45.8252 22.3264H41.2179V9.95106C41.2179 9.42186 40.791 8.99634 40.2654 8.99634H31.7363C31.2092 8.99634 30.7837 9.42186 30.7837 9.95106V22.3264H26.1728C25.9981 22.3267 25.8268 22.375 25.6776 22.4661C25.5285 22.5572 25.4073 22.6876 25.3273 22.843C25.2473 22.9983 25.2116 23.1727 25.2241 23.347C25.2366 23.5213 25.2968 23.6888 25.3981 23.8312L35.2571 37.6106Z" fill="#F69964"/>
+              </svg>
+              <p>Download will start in a few seconds...</p>
+            </div>
+            <div class="bottom">
+              <p>Please, answer several questions in the meantime</p>
+              <a href="https://finalyze.syntech.info/registration" target="_blank" class="btn-orange" id="lets_start">Let's start</a>
+              <button class="btn-simple" id="skip_start">Skip</button>
+            </div>
+            <div class="img close"></div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="center-logo-block">
+      <div class="img logo big" style="background-image: url(img/big-logo.svg);"></div>
+    </div>
+
+  </main>
+  
+  <footer>
+    <div class="flex-container">
+      <div class="center flex-container align-center">
+        <nav class="flex-container align-center">
+          <a href="#about_us" class="go-to">About Us</a>
+          <a href="#features" class="go-to">Features</a>
+          <a href="https://finalyze.syntech.info/">Sign In</a>
+        </nav>
+        <div class="social">
+          <a href="https://www.facebook.com/" target="_blank">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+              <path class="hover-svg" d="M30.2339 32.0001C31.2091 32.0001 32 31.2094 32 30.234V1.76612C32 0.790625 31.2091 0 30.2339 0H1.76612C0.7905 0 0 0.790625 0 1.76612V30.234C0 31.2094 0.7905 32.0001 1.76612 32.0001H30.2339Z" fill="#395185"/>
+              <path d="M22.0794 32.0003V19.6081H26.239L26.8617 14.7788H22.0794V11.6953C22.0794 10.297 22.4677 9.34413 24.4729 9.34413L27.0302 9.343V5.02363C26.5877 4.96475 25.0697 4.83325 23.3037 4.83325C19.6165 4.83325 17.0922 7.08388 17.0922 11.2171V14.7788H12.922V19.6081H17.0922V32.0003H22.0794Z" fill="white"/>
+              </g>
+              <defs>
+              <clipPath id="clip0">
+              <path d="M0 0H32V32H0V0Z" fill="white"/>
+              </clipPath>
+              </defs>
+            </svg>              
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="hover-svg" d="M30.72 0H1.28C0.572 0 0 0.572 0 1.28V30.72C0 31.428 0.572 32 1.28 32H30.72C31.428 32 32 31.428 32 30.72V1.28C32 0.572 31.428 0 30.72 0ZM9.492 27.268H4.744V11.996H9.492V27.268ZM7.12 9.908C6.57571 9.908 6.04363 9.7466 5.59107 9.4442C5.13851 9.14181 4.78578 8.71201 4.57748 8.20914C4.36919 7.70628 4.31469 7.15295 4.42088 6.61911C4.52707 6.08528 4.78917 5.59492 5.17404 5.21004C5.55892 4.82517 6.04928 4.56307 6.58311 4.45688C7.11695 4.35069 7.67028 4.40519 8.17314 4.61348C8.67601 4.82178 9.10581 5.17451 9.4082 5.62707C9.7106 6.07963 9.872 6.61171 9.872 7.156C9.868 8.676 8.636 9.908 7.12 9.908ZM27.268 27.268H22.524V19.84C22.524 18.068 22.492 15.792 20.056 15.792C17.588 15.792 17.208 17.72 17.208 19.712V27.268H12.468V11.996H17.02V14.084H17.084C17.716 12.884 19.264 11.616 21.576 11.616C26.384 11.616 27.268 14.78 27.268 18.892V27.268Z" fill="#0E76A8"/>
+            </svg>              
+          </a>
+          <a href="https://twitter.com/" target="_blank">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="hover-svg" d="M30.72 0H1.28C0.572 0 0 0.572 0 1.28V30.72C0 31.428 0.572 32 1.28 32H30.72C31.428 32 32 31.428 32 30.72V1.28C32 0.572 31.428 0 30.72 0ZM24.612 11.588C24.624 11.776 24.624 11.972 24.624 12.164C24.624 18.036 20.152 24.8 11.98 24.8C9.46 24.8 7.124 24.068 5.156 22.808C5.516 22.848 5.86 22.864 6.228 22.864C8.308 22.864 10.22 22.16 11.744 20.968C9.792 20.928 8.152 19.648 7.592 17.888C8.276 17.988 8.892 17.988 9.596 17.808C8.5909 17.6038 7.6875 17.0579 7.03927 16.2631C6.39103 15.4683 6.03795 14.4736 6.04 13.448V13.392C6.628 13.724 7.32 13.928 8.044 13.956C7.43537 13.5504 6.93623 13.0008 6.59084 12.3561C6.24546 11.7114 6.06449 10.9914 6.064 10.26C6.064 9.432 6.28 8.676 6.668 8.02C7.78361 9.39335 9.17572 10.5166 10.7539 11.3167C12.332 12.1168 14.0608 12.5758 15.828 12.664C15.2 9.644 17.456 7.2 20.168 7.2C21.448 7.2 22.6 7.736 23.412 8.6C24.416 8.412 25.376 8.036 26.232 7.532C25.9 8.56 25.204 9.428 24.28 9.976C25.176 9.88 26.04 9.632 26.84 9.284C26.236 10.172 25.48 10.96 24.612 11.588Z" fill="#00ACEC"/>
+            </svg>              
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/libs.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
