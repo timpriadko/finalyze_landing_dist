@@ -253,7 +253,7 @@ $(document).ready(function() {
       }, 50)
 
       // start download
-      downloadFile('../Odore Sanitizer.pdf');
+      downloadFile('Odore_Sanitizer.pdf');
       
       // pushState
       var state = { 'email': $('.popup.download-form .email input').val(), name: $('.popup.download-form .name input').val()};
